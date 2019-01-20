@@ -1,0 +1,115 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Jan 21 00:43:37 2019
+;; Desktop file format version 208
+;; Emacs version 26.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23620 60297 676021 0) (desktop . "208") "oguzozsaygin@Oguzs-MacBook-Pro.local" nil nil ((((minibuffer . t) (tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . light) (foreground-color . "unspecified-fg") (cursor-color . "black") (background-color . "unspecified-bg") (font . "tty") (height . 32) (width . 80) (modeline . t) (unsplittable) (menu-bar-lines . 1) (frameset--id . "334B-13B2-DA31-98F0") (frameset--mini t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 80) (pixel-height . 31) (total-width . 80) (total-height . 31) (normal-height . 1.0) (normal-width . 1.0) (buffer "README" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 69) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("PS" "pr" "10747" "pr" "python" "set" "bash_comple"))
+(setq regexp-search-ring '("python"))
+(setq register-alist nil)
+(setq file-name-history '("~/spectre/variation-1/sw_analysis.py"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/oguzozsaygin/dotfiles/README"
+  "README"
+  'fundamental-mode
+  '(override-global-mode magit-file-mode)
+  69
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23620 60161 882971 0) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/oguzozsaygin/dotfiles/ssh/.ssh/config"
+  "config"
+  'conf-space-mode
+  '(override-global-mode auto-revert-mode magit-file-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 23620 60161 659192 0) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (89 61 27))))
+
+(desktop-create-buffer 208
+  "/Users/oguzozsaygin/dotfiles/bash/.bash_aliases"
+  ".bash_aliases"
+  'fundamental-mode
+  '(override-global-mode magit-file-mode)
+  22
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23620 60044 581650 894000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/oguzozsaygin/Projects/ozsaygin.github.io/index.md"
+  "index.md"
+  'fundamental-mode
+  '(override-global-mode auto-revert-mode magit-file-mode)
+  214
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23620 60021 913801 117000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/oguzozsaygin/.emacs.d/.bashrc"
+  ".bashrc"
+  'sh-mode
+  '(override-global-mode magit-file-mode)
+  24
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 23620 59915 403353 840000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "oguzozsaygin"
+  'dired-mode
+  '(override-global-mode)
+  258
+  '(nil nil)
+  t
+  '("/Users/oguzozsaygin/")
+  '((buffer-display-time 23620 50470 709158 942000))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/oguzozsaygin/.gitconfig"
+  ".gitconfig"
+  'conf-unix-mode
+  '(override-global-mode)
+  94
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23620 50469 265671 942000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/oguzozsaygin/.emacs.d/init.el"
+  "init.el"
+  'python-mode
+  '(eldoc-mode override-global-mode magit-file-mode company-mode)
+  4
+  '(3495 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 23620 46434 38035 942000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring (2246 3472 20 276 975 2078 2043 960 844 630 630 630 515 630 630 515))))
+
