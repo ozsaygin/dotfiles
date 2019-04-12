@@ -1,8 +1,14 @@
 # if [ -f ~/.bashrc ]; then . ~/.bashrc; fi
 
 
+# homemade binaries
+export PATH="/home/oguzozsaygin/bin:$PATH"
+
 # aliases
 
+# screen aliases
+alias buu='brew update && brew upgrade'
+alias emacs='emacs -nw'
 alias vrc='vim ~/.bashrc'
 alias src='source ~/.bashrc'
 alias erc='emacs -nw ~/.bashrc'
@@ -31,13 +37,13 @@ export PLATFORM=$(uname -s)
     
 # heroku autocomplete setup
 HEROKU_AC_BASH_SETUP_PATH=/Users/oguzozsaygin/Library/Caches/heroku/autocomplete/bash_setup && test -f $HEROKU_AC_BASH_SETUP_PATH && source $HEROKU_AC_BASH_SETUP_PATH;
+
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
 export NODE_PATH=/usr/local/lib/node_modules
+
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/opt/icu4c/sbin:$PATH"
-
-# added by Anaconda3 5.2.0 installer
-export PATH="/anaconda3/bin:$PATH"
 
 # # prompt
 # if [ "$PLATFORM" = Linux ]; then
@@ -68,7 +74,6 @@ test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shel
 export PATH="/usr/local/opt/icu4c/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
-
 
 ###-begin-npm-completion-###
 #
@@ -132,5 +137,34 @@ export PATH="/usr/local/sbin:$PATH"
 
 ###-end-npm-completion-###
 #export PATH=/usr/local/Cellar/node/11.4.0/bin/react-native
-export PATH="$HOME/Library/Haskell/bin:$PATH"
-export PATH="$HOME/.local/bin:$PATH"
+#export PATH="$HOME/Library/Haskell/bin:$PATH"
+#export PATH="$HOME/.local/bin:$PATH"
+
+# added by Miniconda3 4.5.12 installer
+# >>> conda init >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/Users/oguzozsaygin/miniconda3/bin/conda' shell.bash hook 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    \eval "$__conda_setup"
+else
+    if [ -f "/Users/oguzozsaygin/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/oguzozsaygin/miniconda3/etc/profile.d/conda.sh"
+        CONDA_CHANGEPS1=false conda activate base
+    else
+        \export PATH="/Users/oguzozsaygin/miniconda3/bin:$PATH"
+    fi
+fi
+# #
+unset __conda_setup
+# <<< conda init <<<
+# export PATH=/Users/oguzozsaygin/go/bin:/Users/oguzozsaygin/miniconda3/bin:/Users/oguzozsaygin/.local/bin:/Users/oguzozsaygin/Library/Haskell/bin:/usr/local/sbin:/usr/local/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Applications/Wireshark.app/Contents/MacOS:/usr/local/opt/fzf/bin
+export PATH="$HOME/local/bin:$PATH"
+
+
+conda deactivate
+
+
+# Set CLICOLOR if you want Ansi Colors in iTerm2 
+export CLICOLOR=1
+export TERM=xterm-256color
+
