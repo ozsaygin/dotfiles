@@ -24,7 +24,6 @@ let g:NERDCommentEmptyLines = 1
 let g:NERDTrimTrailingWhitespace = 1
 
 
-
 map <leader>jt  <Esc>:%!json_xs -f json -t json-pretty<CR>
 set rtp+=/usr/local/opt/fzf
 set backspace=2
