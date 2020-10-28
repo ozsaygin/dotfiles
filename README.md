@@ -1,12 +1,30 @@
 # dotfiles
 
-This repositories contains my dotfiles and system configurations.
+This repositories contains my personal dotfiles and system configurations.
 
-My dotfiles seperated for each module
+## Installation
 
-Installation of a module
+Clone the latest version of repository. 
+
+```shell
+git clone https://github.com/ozsaygin/dotfiles
+```
+
+Run installer script to migrate dotfiles into your system. 
 
 ```
-cd bash 
-stow bash
+./install 
 ```
+
+You can suppress warnings and error messages with `--quite` flag.
+
+## Backup
+
+Run backup script which backs up your systems packages (Homebrew packages) and pushes updated version of dotfiles into the repository.
+
+```shell
+./backup
+```
+
+You can preferably use `--quite` flag to avoid verbosity. 
+

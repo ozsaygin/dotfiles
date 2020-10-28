@@ -7,7 +7,7 @@ alias dpsa="docker ps -a"
 alias dx='docker exec -i -t'
 alias db='docker build -t'
 
-# transmission
+# ransmission
 alias t-start='sudo service transmission-daemon start'
 alias t-stop='sudo service transmission-daemon stop'
 alias t-reload='sudo service transmission-daemon reload'
